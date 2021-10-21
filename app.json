@@ -1,0 +1,13 @@
+{
+    "name": "Lyrics Api",
+    "description": "Api to get lyrics of the songs by its title and artists name",
+    "author": "Amit",
+    "keywords": [
+        "python",
+        "api",
+        "lyrics-api",
+        "music",
+        "lyrics"
+    ],
+    "repository": "https://github.com/amit-y11/lyrics-api"
+}
