@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, redirect
 from flask_cors import CORS
 from api import *
 from api.lyricsapi import LyricsApi
@@ -9,7 +9,7 @@ Lyr = LyricsApi()
 
 @app.route('/')
 def home():
-    return jsonify("Welcome to Lyrics Api")
+    return redirect("https://amit-y11.github.io/lyrics-api/")
 
 @app.route('/getlyrics/')
 def getlyrics():
